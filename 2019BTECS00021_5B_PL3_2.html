@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Celsius to Fahrenheit</title>
+</head>
+<style>
+    img {
+        display: block;
+    }
+
+    a {
+        font-size: 20px;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 120%;
+        color: #333;
+    }
+
+    nav {
+        overflow: hidden;
+        padding: 10px;
+        text-align: center;
+    }
+
+
+    .container {
+        margin: auto;
+        background-color: #CDF2CA;
+        padding: 25px;
+    }
+</style>
+
+<body>
+    <div class="container">
+    <center><h2>Celsius to Fahrenheit</h2></center>
+
+    <section id="nav">
+        <nav>
+            <a href="#code">Code</a>
+            <a href="#result">Results</a>
+            <a href="#variables">Variables</a>
+            <a href="#complexity">Complexity</a>
+            <a href="#reference">Reference</a>
+        </nav>
+    </section>
+
+    <article id="code">
+        <h1>Code</h1>
+        <textarea id="w3review" name="w3review" rows="20" cols="60">
+            #include<stdio.h>  
+                int main()   
+                {   
+                    float fahrenheit, celsius;  
+                    printf("Enter Temperature in celcius :");
+                    scanf("%f", &celsius);
+                    fahrenheit =( (celsius*9)/5)+32;  
+                    printf("\n\n Temperature in fahrenheit is:  %f",fahrenheit);  
+                    return (0);  
+                } 
+        
+        </textarea>
+    </article>
+
+    
+
+    <section id="result">
+
+        <h1>Results</h1>
+        <h3>Sample Output 1</h3>
+        <img src="Capture.PNG" alt="input" height="100px" width="500px">
+
+        <h3>Sample Output 2</h3>
+        <img src="Capture1.PNG" alt="output" height="100px" width="500px">
+    </section>
+
+    <section id="variables">
+        <h1>Variables Used</h1>
+        <ul>
+            <li>celsius: input number</li>
+            <li>fahrenheit: output number</li>
+        </ul>
+    </section>
+
+    <section id="complexity">
+        <h1>Complexity</h1>
+        <h3><i>O(1)</i></h3>
+    </section>
+
+    <section id="reference">
+        
+        <h1>Refer:</h1>
+        <a style="font-size:100%; color:black" href=""><i>Temperature Conversion</i></a>
+        <h4>F° TO C°: FAHRENHEIT TO CELSIUS CONVERSION FORMULA</h4>
+        <aside><p>To convert temperatures in degrees Fahrenheit to Celsius, subtract 32 and multiply by .5556 (or 5/9). </p></aside>
+</section>
+
+    </div>
+
+</body>
+</html>
